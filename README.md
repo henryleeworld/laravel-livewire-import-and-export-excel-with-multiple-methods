@@ -1,8 +1,9 @@
-# Laravel 10 Livewire 使用多種方法匯入和匯出試算表
+# Laravel 11 Livewire 使用多種方法匯入和匯出試算表
 
 使用不同的匯入與匯出方式，而所需要安裝的套件也不同，匯出資料可以儲存成可以用 Microsoft Excel 或協力廠商應用程式開啟檔案。
 
 ## 使用方式
+- 打開 php.ini 檔案，啟用 PHP 擴充模組 zip，並重啟服務器。
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
 ```sh
 $ git clone
@@ -34,5 +35,5 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/zGdGrhy.png)
+![](https://i.imgur.com/URZOU56.png)
 > 使用不同的匯入與匯出方式
