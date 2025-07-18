@@ -6,8 +6,8 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
+Route::redirect('/', '/login');
 Route::get('users', [UserController::class, 'index'])->name('users.index');
-Route::redirect('/', '/dashboard');
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

@@ -14,7 +14,7 @@ class UserSeeder extends Seeder
      */
     public function run(): void
     {
-//        User::factory(10000)->create();
+        // User::factory(10000)->create();
 
         $faker = Factory::create();
         $data = [];

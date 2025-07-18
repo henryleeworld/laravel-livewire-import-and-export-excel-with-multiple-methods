@@ -13,7 +13,7 @@ class ExportController extends Controller
 {
     public function array()
     {
-        $handle = fopen(storage_path('app/files/export.csv'), 'w');
+        $handle = fopen(storage_path('app/private/files/export.csv'), 'w');
 
         // User::chunk(2000, function ($users) use ($handle) {
         //     foreach ($users->toArray() as $user) {

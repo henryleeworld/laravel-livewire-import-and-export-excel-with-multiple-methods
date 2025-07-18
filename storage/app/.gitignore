@@ -1,3 +1,6 @@
 *
+!private/
+!private/files/
+!private/files/*
 !public/
 !.gitignore

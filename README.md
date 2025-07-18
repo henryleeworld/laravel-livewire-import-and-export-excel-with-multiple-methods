@@ -1,4 +1,4 @@
-# Laravel 11 Livewire 使用多種方法匯入和匯出試算表
+# Laravel 12 Livewire 使用多種方法匯入和匯出試算表
 
 使用不同的匯入與匯出方式，而所需要安裝的套件也不同，匯出資料可以儲存成可以用 Microsoft Excel 或協力廠商應用程式開啟檔案。
 
@@ -35,5 +35,5 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/URZOU56.png)
+![](https://i.imgur.com/UGfe1ot.png)
 > 使用不同的匯入與匯出方式
